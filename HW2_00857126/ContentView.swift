@@ -100,7 +100,8 @@ struct ContentView: View {
                             .font(.system(size: 20))
                             .foregroundColor(Color.black)
                             .fontWeight(.light)
-                            .padding(EdgeInsets(top: 0, leading: 0, bottom: 30.0, trailing: 25.0))
+                            .frame(width: 140, height: 50, alignment: .leading)
+                            .padding(EdgeInsets(top: 0, leading: 0, bottom: 30.0, trailing: 20.0))
                         VStack{
                             Text("資訊工程學系 ３Ａ")
                                 .font(.system(size: 15))
